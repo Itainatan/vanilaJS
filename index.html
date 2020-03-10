@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script defer type="module" src="source.js"></script>
+</head>
+
+<body>
+  <div class="Homepage">
+    <div id="users-container">
+      <div id="card" hidden>
+        <div id="about">
+          <img id="image" />
+          <li id="job"></li>
+        </div>
+        <div id="details">
+          <ul>
+            <li id="name"></li>
+            <li>
+              <i class="material-icons"> place</i>
+              <span id="location"></span>
+            </li>
+            <li id="address"></li>
+            <li id="phone"></li>
+          </ul>
+          <button id="del">
+            <i class="material-icons">delete</i>
+          </button>
+          <button id="edit">
+            <i class="material-icons">create</i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="divAddUser">
+      <h2 class="">
+        ADD NEW USER:
+      </h2>
+      <label>Full name:</label>
+      <input id="nameAddUser" />
+      <label>Address:</label>
+      <input id="addressAddUser" />
+      <label>Job:</label>
+      <input id="jobAddUser" />
+      <label>Phone:</label>
+      <input id="phoneAddUser" />
+      <button id="addUser" class="btn btn-secondary">
+        <i class="material-icons">add</i>
+      </button>
+      <div id="error"></div>
+    </div>
+  </div>
+</body>
+
+</html>

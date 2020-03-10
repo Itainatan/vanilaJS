@@ -1,0 +1,70 @@
+body {
+  background-color: lightgray !important;
+  color: gray !important;
+}
+
+#users-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(2, 3fr);
+}
+
+#card {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+  background-color: white;
+  width: 450px;
+  height: 190px;
+}
+
+#about {
+  margin: 5px;
+}
+
+#divAddUser {
+  margin: 40px;
+}
+
+#name{
+    font-size: larger;
+    font-weight: bold;
+}
+
+img {
+  border-radius: 100px;
+}
+
+ul {
+  margin-bottom: 0px !important;
+}
+
+li {
+  list-style: none;
+  height: 40px;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  border: 0px;
+  color: gray;
+}
+
+@media only screen and (max-width: 650px) {
+  #users-container {
+    background-color: lightgray;
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #users-container {
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(2, 3fr);
+    grid-template-rows: repeat(2, 3fr);
+  }
+}
