@@ -1,4 +1,4 @@
-## Vanila JS Site 😷
+## Vanila JS Site ⌨️
 
 👉🏽 [Demo](https://vanila-itai-web.netlify.app/)
 
